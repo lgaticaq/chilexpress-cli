@@ -1,10 +1,10 @@
-# chilexpress
+# chilexpress-cli
 
-[![npm version](https://img.shields.io/npm/v/chilexpress.svg?style=flat-square)](https://www.npmjs.com/package/chilexpress)
-[![npm downloads](https://img.shields.io/npm/dm/chilexpress.svg?style=flat-square)](https://www.npmjs.com/package/chilexpress)
-[![dependency Status](https://img.shields.io/david/lgaticaq/chilexpress.svg?style=flat-square)](https://david-dm.org/lgaticaq/chilexpress#info=dependencies)
-[![devDependency Status](https://img.shields.io/david/dev/lgaticaq/chilexpress.svg?style=flat-square)](https://david-dm.org/lgaticaq/chilexpress#info=devDependencies)
-[![Join the chat at https://gitter.im/lgaticaq/chilexpress](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg?style=flat-square)](https://gitter.im/lgaticaq/chilexpress?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![npm version](https://img.shields.io/npm/v/chilexpress-cli.svg?style=flat-square)](https://www.npmjs.com/package/chilexpress-cli)
+[![npm downloads](https://img.shields.io/npm/dm/chilexpress-cli.svg?style=flat-square)](https://www.npmjs.com/package/chilexpress-cli)
+[![dependency Status](https://img.shields.io/david/lgaticaq/chilexpress-cli.svg?style=flat-square)](https://david-dm.org/lgaticaq/chilexpress-cli#info=dependencies)
+[![devDependency Status](https://img.shields.io/david/dev/lgaticaq/chilexpress-cli.svg?style=flat-square)](https://david-dm.org/lgaticaq/chilexpress-cli#info=devDependencies)
+[![Join the chat at https://gitter.im/lgaticaq/chilexpress-cli](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg?style=flat-square)](https://gitter.im/lgaticaq/chilexpress-cli?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Check shipping status in chilexpress CLI
 
