@@ -14,6 +14,10 @@ const getOrder = (orderId) => {
     console.log(`Product: ${data.product}`);
     console.log(`Service: ${data.service}`);
     console.log(`Status: ${data.status}`);
+    if (data.isDeliveried) {
+      console.log(`Delivery: ${moment(data.delivery).format('YYYY-MM-DD HH:mm')}`);
+      console.log(`Receptor: ${data.receptor.name} (${data.receptor.rut})`);
+    }
     console.log('History:');
     for (let i of data.history) {
       console.log(`${moment(i.datetime).format('YYYY-MM-DD HH:mm')}: ${i.activity}`);
