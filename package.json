@@ -1,6 +1,6 @@
 {
   "name": "chilexpress-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check shipping status in chilexpress CLI",
   "main": "lib",
   "scripts": {
@@ -61,7 +61,9 @@
         2,
         "always"
       ],
-      "no-console": [0]
+      "no-console": [
+        0
+      ]
     },
     "ecmaFeatures": {
       "modules": true
