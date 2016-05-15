@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/lgaticaq/chilexpress-cli#readme",
   "dependencies": {
-    "chilexpress": "^1.2.1",
+    "chilexpress": "^2.0.0",
     "commander": "^2.9.0",
     "moment": "^2.11.1"
   },
