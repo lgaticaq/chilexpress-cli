@@ -2,31 +2,44 @@
 
 'use strict';
 
-import program from 'commander';
-import chilexpress from 'chilexpress';
-import moment from 'moment';
-import pkg from '../package.json';
+const program = require('commander');
+const chilexpress = require('chilexpress');
+const moment = require('moment');
+const chalk = require('chalk');
+const updateNotifier = require('update-notifier');
+const pkg = require('../package.json');
+const ora = require('ora');
 
-const getOrder = (orderId) => {
-  chilexpress(orderId, (err, data) => {
-    if (err) console.log(err.message);
-    console.log(`Order ID: ${data.orderId}`);
-    console.log(`Product: ${data.product}`);
-    console.log(`Service: ${data.service}`);
-    console.log(`Status: ${data.status}`);
+updateNotifier({pkg}).notify();
+
+const getOrder = orderId => {
+  const spinner = ora('Searching...');
+  spinner.start();
+  chilexpress(orderId).then(data => {
+    spinner.stop();
+    console.log(chalk.green(`Order ID: ${data.orderId}`));
+    console.log(chalk.green(`Transport ID: ${data.transportId}`));
+    console.log(chalk.green(`Product: ${data.product}`));
+    console.log(chalk.green(`Service: ${data.service}`));
+    console.log(chalk.green(`Status: ${data.status}`));
     if (data.isDeliveried) {
-      console.log(`Delivery: ${moment(data.delivery).format('YYYY-MM-DD HH:mm')}`);
-      console.log(`Receptor: ${data.receptor.name} (${data.receptor.rut})`);
+      console.log(chalk.green(`Delivery: ${moment(data.delivery.datetime).format('YYYY-MM-DD HH:mm')}`));
+      console.log(chalk.green(`Receptor: ${data.receptor.name} (${data.receptor.rut})`));
     }
-    console.log('History:');
+    console.log(chalk.green('History:'));
     for (let i of data.history) {
-      console.log(`${moment(i.datetime).format('YYYY-MM-DD HH:mm')}: ${i.activity}`);
+      console.log(chalk.green(`${moment(i.datetime).format('YYYY-MM-DD HH:mm')}: ${i.activity}`));
     }
+  }).catch(err => {
+    spinner.stop();
+    console.log(chalk.red(`Error: ${err.message}`));
   });
 };
 
 program
   .version(pkg.version)
+  .usage('<orderId>')
+  .description('Check shipping status in chilexpress')
   .action(getOrder)
   .parse(process.argv);
 
