@@ -29,7 +29,7 @@
   "homepage": "https://github.com/lgaticaq/chilexpress-cli#readme",
   "dependencies": {
     "chalk": "^1.1.3",
-    "chilexpress": "^2.0.1",
+    "chilexpress": "^2.0.2",
     "commander": "^2.9.0",
     "moment": "^2.13.0",
     "ora": "^0.2.1",
