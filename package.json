@@ -35,7 +35,7 @@
     "chilexpress": "^2.0.3",
     "commander": "^2.9.0",
     "moment": "^2.15.2",
-    "ora": "^0.3.0",
+    "ora": "^0.4.0",
     "update-notifier": "^1.0.2"
   },
   "devDependencies": {
