@@ -4,7 +4,7 @@
 
 const program = require('commander');
 const chilexpress = require('chilexpress');
-const moment = require('moment');
+const format = require('date-fns/format');
 const chalk = require('chalk');
 const updateNotifier = require('update-notifier');
 const pkg = require('../package.json');
@@ -23,12 +23,12 @@ const getOrder = orderId => {
     console.log(chalk.green(`Service: ${data.service}`));
     console.log(chalk.green(`Status: ${data.status}`));
     if (data.isDeliveried) {
-      console.log(chalk.green(`Delivery: ${moment(data.delivery.datetime).format('YYYY-MM-DD HH:mm')}`));
+      console.log(chalk.green(`Delivery: ${format(data.delivery.datetime, 'YYYY-MM-DD HH:mm')}`));
       console.log(chalk.green(`Receptor: ${data.receptor.name} (${data.receptor.rut})`));
     }
     console.log(chalk.green('History:'));
     for (let i of data.history) {
-      console.log(chalk.green(`${moment(i.datetime).format('YYYY-MM-DD HH:mm')}: ${i.activity}`));
+      console.log(chalk.green(`${format(i.datetime, 'YYYY-MM-DD HH:mm')}: ${i.activity}`));
     }
   }).catch(err => {
     spinner.stop();
