@@ -1,3 +1,7 @@
+.git
 node_modules
-.*
-LICENSE
+.editorconfig
+.gitignore
+.nvmrc
+CHANGELOG.md
+yarn.lock
