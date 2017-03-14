@@ -153,9 +153,9 @@ cheerio@^0.22.0:
     lodash.reject "^4.4.0"
     lodash.some "^4.4.0"
 
-chilexpress@^2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/chilexpress/-/chilexpress-2.0.5.tgz#cb97168abdc0e7adb336ff2dff14f91b79af240e"
+chilexpress@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.npmjs.org/chilexpress/-/chilexpress-2.0.6.tgz#113034699d66d01d49f25bda3d5c011c1e2129d5"
   dependencies:
     cheerio "^0.22.0"
 
