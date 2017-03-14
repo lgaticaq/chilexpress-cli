@@ -1,3 +1,17 @@
+#### 2.0.6 (2017-3-14)
+
+##### Chores
+
+* **package:**
+  * Upgrade chilexpress to v2.0.6 ([b9802e53](https://github.com/lgaticaq/chilexpress-cli/commit/b9802e533a1e30a3659168b2ee23e3b4064ef29c))
+  * update eslint to version 3.15.0 ([7111b060](https://github.com/lgaticaq/chilexpress-cli/commit/7111b0606b0cb43f5f5f545743f20a2d9eaf28f6))
+  * update date-fns to version 1.27.2 ([b758a1c8](https://github.com/lgaticaq/chilexpress-cli/commit/b758a1c876fb0217ebd1df0f771f218b3e812230))
+* **yarn:** Update lock ([1722cf05](https://github.com/lgaticaq/chilexpress-cli/commit/1722cf05c97f2d7cf7be494412738c04d448a5b5))
+
+##### Bug Fixes
+
+* **package:** update update-notifier to version 2.0.0 ([7d255753](https://github.com/lgaticaq/chilexpress-cli/commit/7d2557536feb5b78b89c71a0ccc86a323c8255c4))
+
 #### 2.0.5 (2017-1-26)
 
 ##### Chores
