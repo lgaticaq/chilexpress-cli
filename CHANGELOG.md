@@ -1,3 +1,16 @@
+#### 2.0.7 (2017-3-27)
+
+##### Chores
+
+* **package:**
+  * Upgrade eslint to version 3.18.0 ([c225dd65](https://github.com/lgaticaq/chilexpress-cli/commit/c225dd65cd2c4fbac3233e0724ec5ed6444452b8))
+  * Upgrade ora to version 1.2.0 ([1db2744a](https://github.com/lgaticaq/chilexpress-cli/commit/1db2744a91b78ac57754584d014afbdaf2a93ad2))
+  * Upgrade date-fns to version 1.28.2 ([6751b4af](https://github.com/lgaticaq/chilexpress-cli/commit/6751b4af40c3e493d1d5ae3390b0b10af54af685))
+
+##### Documentation Changes
+
+* **LICENSE:** Update year ([3307f8d7](https://github.com/lgaticaq/chilexpress-cli/commit/3307f8d765625f618d432dbba500ee6107dbd7dc))
+
 #### 2.0.6 (2017-3-14)
 
 ##### Chores
