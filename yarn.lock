@@ -264,9 +264,9 @@ d@^0.1.1, d@~0.1.1:
   dependencies:
     es5-ext "~0.10.2"
 
-date-fns@^1.27.2:
-  version "1.28.0"
-  resolved "https://registry.npmjs.org/date-fns/-/date-fns-1.28.0.tgz#3b12f54b66467807bb95e5930caf7bfb4170bc1a"
+date-fns@^1.28.2:
+  version "1.28.2"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-1.28.2.tgz#19e4192d68875c0bf7c9537e3f296a8ec64853ef"
 
 debug@^2.1.1:
   version "2.4.4"
