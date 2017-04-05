@@ -1,3 +1,11 @@
+#### 2.0.8 (2017-4-4)
+
+##### Chores
+
+* **package:**
+  * Upgrade eslint to version 3.19.0 ([01b771de](https://github.com/lgaticaq/chilexpress-cli/commit/01b771dee972bac8a427499cc43fd7f2f6828958))
+  * Remove date-fns ([225066ec](https://github.com/lgaticaq/chilexpress-cli/commit/225066ec93a0c4631f9b06db4f67c25310970a98))
+
 #### 2.0.7 (2017-3-27)
 
 ##### Chores
