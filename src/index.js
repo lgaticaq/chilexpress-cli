@@ -4,7 +4,6 @@
 
 const program = require('commander');
 const chilexpress = require('chilexpress');
-const format = require('date-fns/format');
 const chalk = require('chalk');
 const updateNotifier = require('update-notifier');
 const pkg = require('../package.json');
@@ -22,13 +21,20 @@ const getOrder = orderId => {
     console.log(chalk.green(`Product: ${data.product}`));
     console.log(chalk.green(`Service: ${data.service}`));
     console.log(chalk.green(`Status: ${data.status}`));
+    const pattern = /(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):\d{2}\.\d+Z/;
     if (data.isDeliveried) {
-      console.log(chalk.green(`Delivery: ${format(data.delivery.datetime, 'YYYY-MM-DD HH:mm')}`));
+      let deliveryHour = data.date.toISOString().replace(pattern, '$4') - 3;
+      if (deliveryHour < 10) deliveryHour = `0${deliveryHour}`;
+      const deliveryDate = data.date.toISOString().replace(pattern, `$1-$2-$3 ${deliveryHour}:$5`);
+      console.log(chalk.green(`Delivery: ${deliveryDate}`));
       console.log(chalk.green(`Receptor: ${data.receptor.name} (${data.receptor.rut})`));
     }
     console.log(chalk.green('History:'));
     for (let i of data.history) {
-      console.log(chalk.green(`${format(i.datetime, 'YYYY-MM-DD HH:mm')}: ${i.activity}`));
+      let historyHour = i.date.toISOString().replace(pattern, '$4') - 3;
+      if (historyHour < 10) historyHour = `0${historyHour}`;
+      let historyDate = i.date.toISOString().replace(pattern, `$1-$2-$3 ${historyHour}:$5`);
+      console.log(chalk.green(`${historyDate}: ${i.activity}`));
     }
   }).catch(err => {
     spinner.stop();
