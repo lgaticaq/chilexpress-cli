@@ -38,8 +38,8 @@
     "update-notifier": "^2.0.0"
   },
   "devDependencies": {
-    "eslint": "^4.0.0",
-    "generate-changelog": "^1.1.0"
+    "eslint": "4.6.1",
+    "generate-changelog": "1.4.0"
   },
   "eslintConfig": {
     "env": {
