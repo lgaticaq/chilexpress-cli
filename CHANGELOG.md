@@ -1,3 +1,26 @@
+# [3.0.0](https://github.com/lgaticaq/chilexpress-cli/compare/v2.0.8...v3.0.0) (2019-11-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency chilexpress to v3 ([9bf0ed2](https://github.com/lgaticaq/chilexpress-cli/commit/9bf0ed2d749df569d5ca850a1c9d9f4b6ba53ec1))
+* **deps:** update dependency commander to v4 ([11fd2b1](https://github.com/lgaticaq/chilexpress-cli/commit/11fd2b125fe0b287d678fbeedb2ec76480074f1e))
+* **deps:** update dependency ora to v4 ([7e02968](https://github.com/lgaticaq/chilexpress-cli/commit/7e02968ed2910b87592a82f3901e354ddb570dbc))
+* package.json to reduce vulnerabilities ([12dd865](https://github.com/lgaticaq/chilexpress-cli/commit/12dd865dbc1d31d802585c2e534e55af00a07c7b))
+* **deps:** update dependency chalk to v3 ([444a06e](https://github.com/lgaticaq/chilexpress-cli/commit/444a06edcf75621e1bd817246d99c4a138d2abf7))
+* **deps:** update dependency update-notifier to v3 ([12a8a6e](https://github.com/lgaticaq/chilexpress-cli/commit/12a8a6e133c40c29cc483b1d694e0a4b46fd0116))
+* **package:** update chalk to version 2.0.0 ([ff0d4f8](https://github.com/lgaticaq/chilexpress-cli/commit/ff0d4f84b7d114b1f89d0815c8b6561d5dec9234))
+
+
+### Features
+
+* **node:** update node to v12 ([f1f1d6a](https://github.com/lgaticaq/chilexpress-cli/commit/f1f1d6a4833811c255af8d4aa9fd3129b3729f7e))
+
+
+### BREAKING CHANGES
+
+* **node:** update min node to v12
+
 #### 2.0.8 (2017-4-4)
 
 ##### Chores
