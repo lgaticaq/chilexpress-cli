@@ -3,11 +3,7 @@
   "version": "2.0.8",
   "description": "Check shipping status in chilexpress CLI",
   "main": "src",
-  "scripts": {
-    "release:major": "changelog -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags && npm publish",
-    "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags && npm publish",
-    "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags && npm publish"
-  },
+  "scripts": {},
   "engines": {
     "node": ">=12"
   },
@@ -37,8 +33,11 @@
     "update-notifier": "^3.0.0"
   },
   "devDependencies": {
+    "@eclass/semantic-release-npm-github-config": "^3.0.0",
+    "@semantic-release/changelog": "^3.0.5",
+    "@semantic-release/git": "^7.0.18",
     "eslint": "6.6.0",
-    "generate-changelog": "1.8.0"
+    "semantic-release": "^15.13.31"
   },
   "eslintConfig": {
     "env": {
@@ -67,5 +66,8 @@
         0
       ]
     }
+  },
+  "release": {
+    "extends": "@eclass/semantic-release-npm-github-config"
   }
 }
