@@ -1,9 +1,10 @@
 # chilexpress-cli
 
-[![npm version](https://img.shields.io/npm/v/chilexpress-cli.svg?style=flat-square)](https://www.npmjs.com/package/chilexpress-cli)
-[![npm downloads](https://img.shields.io/npm/dm/chilexpress-cli.svg?style=flat-square)](https://www.npmjs.com/package/chilexpress-cli)
-[![dependency Status](https://img.shields.io/david/lgaticaq/chilexpress-cli.svg?style=flat-square)](https://david-dm.org/lgaticaq/chilexpress-cli#info=dependencies)
-[![devDependency Status](https://img.shields.io/david/dev/lgaticaq/chilexpress-cli.svg?style=flat-square)](https://david-dm.org/lgaticaq/chilexpress-cli#info=devDependencies)
+[![npm version](https://img.shields.io/npm/v/chilexpress-cli.svg)](https://www.npmjs.com/package/chilexpress-cli)
+[![npm downloads](https://img.shields.io/npm/dm/chilexpress-cli.svg)](https://www.npmjs.com/package/chilexpress-cli)
+[![dependency Status](https://img.shields.io/david/lgaticaq/chilexpress-cli.svg)](https://david-dm.org/lgaticaq/chilexpress-cli#info=dependencies)
+[![devDependency Status](https://img.shields.io/david/dev/lgaticaq/chilexpress-cli.svg)](https://david-dm.org/lgaticaq/chilexpress-cli#info=devDependencies)
+[![Maintainability](https://api.codeclimate.com/v1/badges/1e68c62ae3108ebb08d5/maintainability)](https://codeclimate.com/github/lgaticaq/chilexpress-cli/maintainability)
 
 > Check shipping status in chilexpress CLI
 
