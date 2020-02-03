@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/lgaticaq/chilexpress-cli/compare/v3.0.1...v3.0.2) (2020-02-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency commander to v4.1.1 ([a283d3d](https://github.com/lgaticaq/chilexpress-cli/commit/a283d3d82b5053f8fc2f408cecd2c1ac3be8f2c8))
+
 ## [3.0.1](https://github.com/lgaticaq/chilexpress-cli/compare/v3.0.0...v3.0.1) (2020-01-06)
 
 
