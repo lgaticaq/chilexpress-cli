@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/lgaticaq/chilexpress-cli/compare/v3.0.2...v3.0.3) (2020-04-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ora to v4.0.4 ([e69e900](https://github.com/lgaticaq/chilexpress-cli/commit/e69e9002f0930849d676fce68e204a5ee2c98da0))
+
 ## [3.0.2](https://github.com/lgaticaq/chilexpress-cli/compare/v3.0.1...v3.0.2) (2020-02-03)
 
 
