@@ -1,3 +1,10 @@
+## [3.0.8](https://github.com/lgaticaq/chilexpress-cli/compare/v3.0.7...v3.0.8) (2020-09-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency chilexpress to v3.0.2 ([cb6aa24](https://github.com/lgaticaq/chilexpress-cli/commit/cb6aa24806ef04ec1ce95a1213900daa14157c24))
+
 ## [3.0.7](https://github.com/lgaticaq/chilexpress-cli/compare/v3.0.6...v3.0.7) (2020-08-07)
 
 
