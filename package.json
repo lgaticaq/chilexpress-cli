@@ -57,7 +57,7 @@
     "husky": "4.3.0",
     "lint-staged": "10.4.0",
     "prettier-standard": "16.4.1",
-    "semantic-release": "17.2.0",
+    "semantic-release": "17.2.1",
     "typescript": "3.9.7"
   },
   "eslintConfig": {
