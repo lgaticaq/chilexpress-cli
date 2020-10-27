@@ -44,7 +44,7 @@
     "@eclass/semantic-release-npm-github-config": "3.0.1",
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/git": "9.0.0",
-    "eslint": "7.12.0",
+    "eslint": "7.12.1",
     "eslint-plugin-array-func": "3.1.7",
     "eslint-plugin-eslint-comments": "3.2.0",
     "eslint-plugin-import": "2.22.1",
