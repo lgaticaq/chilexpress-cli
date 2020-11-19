@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/lgaticaq/chilexpress-cli#readme",
   "dependencies": {
-    "chalk": "3.0.0",
+    "chalk": "4.1.0",
     "chilexpress": "3.0.3",
     "commander": "4.1.1",
     "ora": "4.1.1",
