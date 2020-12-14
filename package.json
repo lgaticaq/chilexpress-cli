@@ -33,7 +33,7 @@
   "dependencies": {
     "chalk": "3.0.0",
     "chilexpress": "3.0.3",
-    "commander": "4.1.1",
+    "commander": "6.2.1",
     "ora": "4.1.1",
     "update-notifier": "3.0.1"
   },
