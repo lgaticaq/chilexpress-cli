@@ -34,7 +34,7 @@
     "chalk": "3.0.0",
     "chilexpress": "3.0.4",
     "commander": "4.1.1",
-    "ora": "4.1.1",
+    "ora": "5.4.1",
     "update-notifier": "3.0.1"
   },
   "devDependencies": {
