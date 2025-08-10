@@ -58,7 +58,7 @@
     "lint-staged": "10.5.4",
     "prettier-standard": "16.4.1",
     "semantic-release": "17.4.2",
-    "typescript": "3.9.9"
+    "typescript": "3.9.10"
   },
   "eslintConfig": {
     "extends": "@eclass"
